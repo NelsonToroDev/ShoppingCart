@@ -6,7 +6,7 @@ Technical React Practice based on [MiduDev](https://midu.dev) course
 
 # Statement
 
-Create an Ecommerce application with some cart operations
+Create an Ecommerce application with some shopping cart operations
 
 # Requirements
 
