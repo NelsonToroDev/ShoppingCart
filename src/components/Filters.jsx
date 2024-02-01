@@ -1,6 +1,8 @@
 import { useState, useId } from 'react'
 import './Filters.css'
 
+
+
 export default function Filters({ onChange }) {
   const [maxPriceFilter, setMaxPriceFilter] = useState(100)
   const maxPriceFilterId = useId()
