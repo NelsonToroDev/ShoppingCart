@@ -11,9 +11,10 @@ Create an Ecommerce application with some shopping cart operations
 # Requirements
 
 - Ecommerce
-    - Display the list of products from a JSON file
-    - Add a Category filter
-    - Add a Price filter
+    - ✅ Display the list of products from a JSON file
+    - ✅ Add a Category filter
+    - ✅ Add a Price filter
+    - make use of useCOntext to avoid passing unneeded props
 
 - Shopping Cart
     - Add products to shopping cart
