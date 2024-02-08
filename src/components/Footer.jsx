@@ -1,7 +1,10 @@
+import { useFilters } from '../hooks/useFilters'
 import './Footer.css'
 
 // Props drilling
-export default function Footer({filters}) {
+export default function Footer() {
+  const { filters } = useFilters()
+
   return (
     <footer className='footer'>
       {/* Used as debugger to now values of some props */}
