@@ -5,6 +5,8 @@ import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import { IS_DEVELOPMENT } from './components/config.js'
 import { useFilters } from './hooks/useFilters.js'
+import { Cart } from './components/Cart.jsx'
+import { CartProvider } from './context/cartContext.jsx'
 
 function App() {
   const [products] = useState(initialProducts)
@@ -13,11 +15,12 @@ function App() {
   const filteredProducts = filterProducts(products)
 
   return (
-    <>
+    <CartProvider>
       <Header />
+      <Cart />
       <Products products={filteredProducts} />
       {IS_DEVELOPMENT && <Footer />}
-    </>
+    </CartProvider>
   )
 }
 
