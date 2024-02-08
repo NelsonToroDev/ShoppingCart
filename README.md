@@ -17,10 +17,10 @@ Create an Ecommerce application with some shopping cart operations
     - ✅ make use of useContext to avoid passing unneeded props
 
 - Shopping Cart
-    - Add products to shopping cart
-    - Remove products from shopping cart
-    - Edit products quantity from shopping cart
-    - Sync shopping cart with products list
+    - ✅ Add products to shopping cart
+    - ✅ Remove products from shopping cart
+    - ✅ Edit products quantity from shopping cart
+    - ✅ Sync shopping cart with products list
     - Save shopping cart in a localStorage in order to recover it when the page will be refreshed
 # React concepts to practice
 
