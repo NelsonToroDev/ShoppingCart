@@ -3,7 +3,7 @@ import { useId } from 'react'
 import { CartIcon, ClearCartIcon } from './Icons.jsx'
 import { useCart } from '../hooks/useCart.js'
 
-function CartItem({ thumbnail, price, title, quantity, addQuantity }) {
+function CartItem ({ thumbnail, price, title, quantity, addQuantity }) {
   return (
     <li>
       <img src={thumbnail} alt={title} />
@@ -19,9 +19,9 @@ function CartItem({ thumbnail, price, title, quantity, addQuantity }) {
   )
 }
 
-export function Cart() {
+export function Cart () {
   const cartCheckBoxId = useId()
-  const { cart, clearCart, addToCart } = useCart()
+  const { cart, addToCart, clearCart } = useCart()
 
   return (
     <>

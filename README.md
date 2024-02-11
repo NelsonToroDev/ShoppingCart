@@ -21,7 +21,7 @@ Create an Ecommerce application with some shopping cart operations
     - ✅ Remove products from shopping cart
     - ✅ Edit products quantity from shopping cart
     - ✅ Sync shopping cart with products list
-    - Save shopping cart in a localStorage in order to recover it when the page will be refreshed
+    - ✅ Save shopping cart in a localStorage in order to recover it when the page will be refreshed
 # React concepts to practice
 
 - useContext
