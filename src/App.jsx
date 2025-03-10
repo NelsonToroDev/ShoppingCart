@@ -8,7 +8,7 @@ import { useFilters } from './hooks/useFilters.js'
 import { Cart } from './components/Cart.jsx'
 import { CartProvider } from './context/cartContext.jsx'
 
-function App() {
+function App () {
   const [products] = useState(initialProducts)
   const { filterProducts } = useFilters()
 
